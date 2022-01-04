@@ -35,3 +35,16 @@ export function Helloworld() {
 }
 
 
+function HelloUniverse() {
+  return (
+    <div>
+     
+      <h1>Hello universe</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur
+        modi non optio culpa, iste at. Libero est vitae natus molestiae, dolorem
+        ad veniam molestias eos.
+      </p>
+    </div>
+  );
+}

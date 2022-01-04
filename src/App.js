@@ -4,11 +4,12 @@
  * @returns
  */
 
-export default function App(){
+export default function App() {
   return (
     <div>
-      <helloworld />
-      <helloworld />
+      <Helloworld />
+      <Helloworld />
+      <HelloUniverse />
     </div>
   );
 }
@@ -19,8 +20,8 @@ export default function App(){
  * <div></div>
  *
  * @returns
- */  
-export function helloworld() {
+ */
+export function Helloworld() {
   return (
     <div>
       <h1>hello cdac</h1>
@@ -32,3 +33,5 @@ export function helloworld() {
     </div>
   );
 }
+
+

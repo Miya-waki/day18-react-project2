@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+/**App => why it is used in captial
+ * JSX => java script XML
+ *
+ * @returns
+ */
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <cdac />
+      <cdac />
     </div>
   );
 }
 
-export default App;
+/**
+ * HTML => pre defined tag
+ * React => user defined tag =>
+ * <div></div>
+ *
+ * @returns
+ */
+export function cdac() {
+  return (
+    <div>
+      <div>hello cdac</div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste unde
+        quam, repudiandae tenetur voluptates alias beatae, veniam reprehenderit
+        quas inventore sequi fuga tempora!
+      </p>
+    </div>
+  );
+}

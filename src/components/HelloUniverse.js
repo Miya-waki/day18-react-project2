@@ -1,6 +1,7 @@
+import "./HelloUniverse.css";
 export default function HelloUniverse() {
   return (
-    <div className="bg-primary">
+    <div className="beautify">
       <h1>Hello Universe</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem

@@ -4,11 +4,11 @@
  * @returns
  */
 
-export default function App() {
+export default function App(){
   return (
     <div>
-      <cdac />
-      <cdac />
+      <helloworld />
+      <helloworld />
     </div>
   );
 }
@@ -19,11 +19,11 @@ export default function App() {
  * <div></div>
  *
  * @returns
- */
-export function cdac() {
+ */  
+export function helloworld() {
   return (
     <div>
-      <div>hello cdac</div>
+      <h1>hello cdac</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste unde
         quam, repudiandae tenetur voluptates alias beatae, veniam reprehenderit
